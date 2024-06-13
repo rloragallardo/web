@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para la tonta mas tonta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .corazon {
+            font-size: 50px; /* Tamaño del corazón */
+            color: #ff5750; /* Color rojo intenso */
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .corazon:hover {
+            transform: scale(1.5); /* Efecto de escala al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Ey ey a donde tan fachera mi amor </h1>
+    <p>Si ya llegaste a mi corazoncito 😍 <br> Ahora te toca presionarlo ajsdjaj</p>
+    <span class="corazon" onclick="redirigirASorpresa()">💙</span>
+
+    <script>
+        function redirigirASorpresa() {
+            window.location.href = "otra_pagina.html";
+        }
+    </script>
+</body>
+</html>
